@@ -5,7 +5,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="mb-8">
         {/*
         A <Switch> looks through all its children <Route>
         elements and renders the first one whose path
