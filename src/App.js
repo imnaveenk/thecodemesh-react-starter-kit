@@ -20,7 +20,7 @@ function App() {
         </Switch>
         <footer>
           <div className="fixed bottom-0 h-10 p-2 bg-gray-200 w-full  text-center">
-            Powered by <a href="http://www.thecodemesh.com">TheCodeMesh</a>
+            Powered by <a className="text-blue-500 hover:text-blue-700" href="http://www.thecodemesh.com">TheCodeMesh</a>
           </div>
         </footer>
       </div>
