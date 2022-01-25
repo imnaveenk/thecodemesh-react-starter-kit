@@ -1,11 +1,6 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Home from './components/Home';
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -23,6 +18,11 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <footer>
+          <div className="fixed bottom-0 h-10 p-2 bg-gray-200 w-full  text-center">
+            Powered by <a href="http://www.thecodemesh.com">TheCodeMesh</a>
+          </div>
+        </footer>
       </div>
     </Router>
   );
